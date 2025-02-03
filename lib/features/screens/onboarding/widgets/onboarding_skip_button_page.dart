@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:pc/features/controllers/onboarding_controller.dart';
 import 'package:pc/utils/constants/sizes.dart';
 import 'package:pc/utils/device/device_utility.dart';
 
-class SkipButton extends StatelessWidget {
-  const SkipButton({
+class OnBoardingSkip extends StatelessWidget {
+  const OnBoardingSkip({
     super.key,
   });
 
@@ -12,7 +13,9 @@ class SkipButton extends StatelessWidget {
     return Positioned(
       top: TDeviceUtils.getAppBarHeight(),
       right: TSizes.defaultSpace,
-      child: TextButton(onPressed: () {}, child: const Text("Skip")),
+      child: TextButton(onPressed: () {
+        return  OnBoardingController.instance.skipPage();
+      },  child: const Text("Skip")),
     );
   }
 }
