@@ -44,9 +44,9 @@ class TImages {
   static const String verifyIllustration = "assets/images/animations/sammy-line-travel-backpack-with-passport-and-air-ticket.gif";
 
   // -- OnBoarding Texts
-  static const String onBoardingImage1 = "assets/images/on_boarding_images/onboardingpc1.gif";
+  static const String onBoardingImage1 = "assets/images/on_boarding_images/onboardingpc3.gif";
   static const String onBoardingImage2 = "assets/images/on_boarding_images/onboardingpc2.gif";
-  static const String onBoardingImage3 = "assets/images/on_boarding_images/onboardingpc3.gif";
+  static const String onBoardingImage3 = "assets/images/on_boarding_images/onboardingpc1.gif";
 
   // -- Products
   static const String productImage1 = "assets/images/products/nike-shoes.png";
