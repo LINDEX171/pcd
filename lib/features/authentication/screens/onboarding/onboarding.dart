@@ -1,16 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:pc/features/controllers/onboarding_controller.dart';
-import 'package:pc/features/screens/onboarding/widgets/onboarding_dot_navigation.dart';
-import 'package:pc/features/screens/onboarding/widgets/onboarding_next_button.dart';
-import 'package:pc/features/screens/onboarding/widgets/onboarding_page.dart';
-import 'package:pc/features/screens/onboarding/widgets/onboarding_skip_button_page.dart';
+import 'package:pc/features/authentication/controllers/onboarding_controller.dart';
+import 'package:pc/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
+import 'package:pc/features/authentication/screens/onboarding/widgets/onboarding_next_button.dart';
+import 'package:pc/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
+import 'package:pc/features/authentication/screens/onboarding/widgets/onboarding_skip_button_page.dart';
 import 'package:pc/utils/constants/image_strings.dart';
-import 'package:pc/utils/constants/sizes.dart';
 import 'package:pc/utils/constants/text_strings.dart';
-import 'package:pc/utils/device/device_utility.dart';
 import 'package:get/get.dart';
 
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
+
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});

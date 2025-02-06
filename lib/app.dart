@@ -1,8 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pc/features/screens/onboarding/onboarding.dart';
 import 'package:pc/utils/theme/theme.dart';
+
+import 'features/authentication/screens/onboarding/onboarding.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

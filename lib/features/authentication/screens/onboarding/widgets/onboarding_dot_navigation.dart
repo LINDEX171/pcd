@@ -1,4 +1,4 @@
-import 'package:pc/features/controllers/onboarding_controller.dart';
+import 'package:pc/features/authentication/controllers/onboarding_controller.dart';
 import 'package:pc/utils/constants/colors.dart';
 import 'package:pc/utils/constants/sizes.dart';
 import 'package:pc/utils/device/device_utility.dart';
